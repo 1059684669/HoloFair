@@ -1,4 +1,3 @@
-# HoloFair
 <div align="center">
 
 # HoloFair
@@ -15,16 +14,14 @@
 
 [Paper]() | [Project Page]() | [Dataset]() | [Models]()
 
-<img src="overview.pdf" width="85%">
+<img src="assets/overview.png" width="85%">
 
 </div>
 
----
-
 ## 🔥 News
 
-- **[2026.xx]** 🎉 Paper accepted at **ICML 2026**!
-- **[2026.xx]** Code, models, and datasets released.
+- **[2026.5.1]** 🎉 Paper accepted at **ICML 2026**!
+- **[2026.6]** Code, models, and datasets released. Coming soon.
 
 
 ## 🙏 Acknowledgements
