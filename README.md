@@ -19,7 +19,7 @@
 ## 🔥 News
 
 - **[2026.5.1]** 🎉 Paper accepted at **ICML 2026**!
-- **[2026.6]** Code, models, and datasets released. Coming soon.
+- **[2026.6]** Code, models, and datasets will be released. Coming soon.
 
 
 ## 🙏 Acknowledgements
