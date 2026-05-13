@@ -15,7 +15,7 @@
 
 [Paper]() | [Project Page]() | [Dataset]() | [Models]()
 
-<img src="overview.png" width="85%">
+<img src="overview.pdf" width="85%">
 
 </div>
 
