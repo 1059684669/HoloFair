@@ -39,7 +39,7 @@ The **Multi-attribute, Group-wise Bias Index** jointly measures two complementar
 An end-to-end evaluation framework built on:
 - **Prompt Sets**: 300 neutral + 450 semantic trigger prompts (Eval), 10,000 prompts (Train), 300 biased prompts (Gen)
 - **RBD Dataset**: 119K images from FairFace, UTKFace, in-the-wild portraits, and AI-generated images
-- **SpaFreq Classifier**: Dual-stream DINOv2 architecture combining spatial semantics and wavelet frequency features (89.67% overall accuracy)
+- **SpaFreq Classifier**: Dual-stream DINOv2 architecture combining spatial semantics and wavelet frequency features
 
 
 <div align="center">
@@ -55,7 +55,6 @@ A reinforcement-learning method using a **multi-attribute per-prompt reward func
 - Log-ratio base reward penalizes over-represented categories and rewards under-represented ones
 - Zero-centered, clipped, and aggregated across gender, age, and race
 - KL-regularized policy optimization prevents quality degradation
-- Architecture-agnostic: validated on both UNet (SD1.5) and MMDiT (SD3.5M)
 
 
 <div align="center">
