@@ -31,7 +31,7 @@ Text-to-Image (T2I) models often perpetuate societal biases — even a neutral p
 
 - **MGBI Metric** — Multi-attribute, Group-wise Bias Index that jointly measures intrinsic diversity (ID) and context-robust conditional diversity (CA<sub>q</sub>) via normalized Shannon entropy and geometric mean aggregation.
 - **HoloFair Benchmark** — An end-to-end evaluation framework comprising prompt sets (Gen/Eval/Train), the RBD dataset (119K images from FairFace, UTKFace, in-the-wild, and AI-generated sources), and SpaFreq dual-stream classifiers (DINOv2 + wavelet frequency features). We evaluate 8 mainstream T2I models across both generation-only (SDXL, SD3.5-Large, Flux1-dev, SANA-1.5) and unified multimodal architectures (Show-o, Harmon, Bagel, Blip3-o).
-- **Fair-GRPO** — A reinforcement-learning-based debiasing method using a multi-attribute per-prompt reward function with KL-regularized policy optimization. It improves MGBI by **29.9% on SD3.5M** and **20.2% on SD1.5** without degrading image quality.
+- **Fair-GRPO** — A reinforcement-learning-based debiasing method using a multi-attribute per-prompt reward function with KL-regularized policy optimization. 
 
 ## 📋 Main Results
 
