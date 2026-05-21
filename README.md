@@ -1,13 +1,29 @@
+<div align="center">
+    
 # HoloFair: Unified T2I Fairness Evaluation and Fair-GRPO Debiasing
 
 [![Paper](https://img.shields.io/badge/Paper-ICML%202026-blue.svg)](https://icml.cc/virtual/2026/poster/62706)
 [![arXiv](https://img.shields.io/badge/arXiv-2026.xxxxx-b31b1b.svg)](https://arxiv.org/)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg)](https://huggingface.co/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](LICENSE)
+</div>
 
 **A comprehensive benchmark and RL-based debiasing framework for demographic fairness in Text-to-Image models.**
 
 This repository contains the official implementation for **HoloFair** (ICML 2026). We introduce an end-to-end framework that evaluates deep-semantic fairness in T2I models and mitigates biases via reinforcement learning, without degrading image quality.
+
+<div align="center">
+
+
+
+---
+
+## 🔥 News
+
+- **[2026.5.1]** 🎉 Paper accepted at **ICML 2026**!
+- **[2026.6]** Code, models, and datasets will be released. Coming soon.
+
+
 
 ---
 
