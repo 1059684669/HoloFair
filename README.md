@@ -12,10 +12,6 @@
 
 This repository contains the official implementation for **HoloFair** (ICML 2026). We introduce an end-to-end framework that evaluates deep-semantic fairness in T2I models and mitigates biases via reinforcement learning, without degrading image quality.
 
-<div align="center">
-
-
-
 ---
 
 ## 🔥 News
