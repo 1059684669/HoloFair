@@ -41,6 +41,14 @@ An end-to-end evaluation framework built on:
 - **RBD Dataset**: 119K images from FairFace, UTKFace, in-the-wild portraits, and AI-generated images
 - **SpaFreq Classifier**: Dual-stream DINOv2 architecture combining spatial semantics and wavelet frequency features (89.67% overall accuracy)
 
+
+<div align="center">
+<img src="assets/dataset.png" width="88%">
+</div>
+
+**Figure 2.** Overview of the RBD dataset.
+
+
 ### ⚡ Fair-GRPO Debiasing
 
 A reinforcement-learning method using a **multi-attribute per-prompt reward function**:
@@ -54,7 +62,7 @@ A reinforcement-learning method using a **multi-attribute per-prompt reward func
 <img src="assets/Fair-GRPO.png" width="88%">
 </div>
 
-**Figure 2.** Overview of the Fair-GRPO Debiasing method.
+**Figure 3.** Overview of the Fair-GRPO Debiasing method.
 
 
 
