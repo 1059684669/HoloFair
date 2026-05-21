@@ -54,7 +54,7 @@ A reinforcement-learning method using a **multi-attribute per-prompt reward func
 <img src="assets/Fair-GRPO.png" width="88%">
 </div>
 
-                                  **Figure 2.** Overview of the Fair-GRPO Debiasing method.
+**Figure 2.** Overview of the Fair-GRPO Debiasing method.
 
 
 
