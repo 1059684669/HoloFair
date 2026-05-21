@@ -49,6 +49,15 @@ A reinforcement-learning method using a **multi-attribute per-prompt reward func
 - KL-regularized policy optimization prevents quality degradation
 - Architecture-agnostic: validated on both UNet (SD1.5) and MMDiT (SD3.5M)
 
+
+<div align="center">
+<img src="assets/Fair-GRPO.png" width="88%">
+</div>
+
+**Figure 1.** Overview of the Fair-GRPO Debiasing method.
+
+
+
 ---
 
 ## 📈 Key Results
