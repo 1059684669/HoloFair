@@ -2,7 +2,6 @@
 
 [![Paper](https://img.shields.io/badge/Paper-ICML%202026-blue.svg)](https://icml.cc/virtual/2026/poster/62706)
 [![arXiv](https://img.shields.io/badge/arXiv-2026.xxxxx-b31b1b.svg)](https://arxiv.org/)
-[![Website](https://img.shields.io/badge/Website-Project%20Page-green.svg)]()
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg)](https://huggingface.co/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](LICENSE)
 
