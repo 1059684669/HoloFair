@@ -133,7 +133,7 @@ python benchmark/evaluate.py \
 # SD3.5M (MMDiT architecture)
 accelerate launch fair_grpo/train_sd3.py \
     --config fair_grpo/configs/sd3_fairness.py
-
+```
 ---
 
 ## 📁 Repository Structure
