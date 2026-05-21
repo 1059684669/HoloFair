@@ -41,7 +41,7 @@ Text-to-Image (T2I) models often perpetuate societal biases — even a neutral p
 |:-----|:------|:----:|:-------:|:---------:|:------:|
 | Gen-only | SDXL | 0.8186 | 0.2865 | 0.4313 | 0.4843 |
 | Gen-only | SD3.5-Large | 0.7480 | 0.3693 | 0.5456 | 0.5255 |
-| Gen-only | Flux1-dev | 0.6858 | **0.6702** | **0.6945** | **0.6780** |
+| Gen-only | Flux1-dev | 0.6858 | 0.6702 | 0.6945** | 0.6780 |
 | Gen-only | SANA-1.5 | 0.7820 | 0.3821 | 0.5794 | 0.5466 |
 | Unified | Show-o | 0.7005 | 0.6013 | 0.6646 | 0.6490 |
 | Unified | Harmon | 0.5320 | 0.4661 | 0.5042 | 0.4979 |
