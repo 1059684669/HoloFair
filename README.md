@@ -98,17 +98,14 @@ conda activate holofair
 pip install -r requirements.txt
 ```
 
-### 2. Download Weights
+### 2. Training classifiers
 
-SpaFreq classifier weights and Fair-GRPO LoRA weights are hosted on HuggingFace:
-
-| Model | Description | Link |
-|:------|:------------|:----:|
-| SpaFreq-Gender | Gender classifier (2 classes) | [🤗 Download]() |
-| SpaFreq-Age | Age classifier (3 classes) | [🤗 Download]() |
-| SpaFreq-Race | Race classifier (5 classes) | [🤗 Download]() |
-| Fair-GRPO SD3.5M | Debiased LoRA weights | [🤗 Download]() |
-| Fair-GRPO SD1.5 | Debiased LoRA weights | [🤗 Download]() |
+```bash
+python benchmark/evaluate.py \
+    --model_path <path_to_model> \
+    --prompt_set benchmark/prompts/eval_set.json \
+    --classifier_weights classifiers/weights
+```
 
 ### 3. Evaluate a T2I Model
 
@@ -126,11 +123,6 @@ python benchmark/evaluate.py \
 # SD3.5M (MMDiT architecture)
 accelerate launch fair_grpo/train_sd3.py \
     --config fair_grpo/configs/sd3_fairness.py
-
-# SD1.5 (UNet architecture)
-accelerate launch fair_grpo/train_sd15.py \
-    --config fair_grpo/configs/sd15_fairness.py
-```
 
 ---
 
