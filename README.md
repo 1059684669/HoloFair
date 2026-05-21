@@ -130,7 +130,7 @@ python benchmark/evaluate.py \
 ### 4. Train Fair-GRPO
 
 ```bash
-# SD3.5M (MMDiT architecture)
+# SD3.5M (MMDiT architecture),All debiasing experiments were conducted on a cluster of 6$\times$NVIDIA RTX 4090 GPUs (24 GB each), with a total training time of approximately 10 hours.
 accelerate launch fair_grpo/train_sd3.py \
     --config fair_grpo/configs/sd3_fairness.py
 ```
