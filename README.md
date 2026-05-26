@@ -3,7 +3,7 @@
 # HoloFair: Unified T2I Fairness Evaluation and Fair-GRPO Debiasing
 
 [![Paper](https://img.shields.io/badge/Paper-ICML%202026-blue.svg)](https://icml.cc/virtual/2026/poster/62706)
-[![arXiv](https://img.shields.io/badge/arXiv-2026.2605.24687-b31b1b.svg)](https://arxiv.org/abs/2605.24687))
+[![arXiv](https://img.shields.io/badge/arXiv-2605.24687-b31b1b.svg)](https://arxiv.org/abs/2605.24687)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg)](https://huggingface.co/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](LICENSE)
 </div>
