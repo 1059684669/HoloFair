@@ -3,7 +3,7 @@
 # HoloFair: Unified T2I Fairness Evaluation and Fair-GRPO Debiasing
 
 [![Paper](https://img.shields.io/badge/Paper-ICML%202026-blue.svg)](https://icml.cc/virtual/2026/poster/62706)
-[![arXiv](https://img.shields.io/badge/arXiv-2026.xxxxx-b31b1b.svg)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2026.xxxxx-b31b1b.svg)](https://arxiv.org/abs/2605.24687))
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg)](https://huggingface.co/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](LICENSE)
 </div>
@@ -96,45 +96,7 @@ A reinforcement-learning method using a **multi-attribute per-prompt reward func
 
 ---
 
-## 🚀 Quick Start
 
-### 1. Installation
-
-```bash
-git clone https://github.com/RuyiChen11/HoloFair.git
-cd HoloFair
-conda create -n holofair python=3.10 -y
-conda activate holofair
-pip install -r requirements.txt
-```
-
-### 2. Training classifiers
-
-```bash
-python benchmark/evaluate.py \
-    --model_path <path_to_model> \
-    --prompt_set benchmark/prompts/eval_set.json \
-    --classifier_weights classifiers/weights
-```
-
-### 3. Evaluate a T2I Model
-
-```bash
-python benchmark/evaluate.py \
-    --model_path <path_to_model> \
-    --prompt_set benchmark/prompts/eval_set.json \
-    --classifier_weights classifiers/weights/ \
-    --output_dir results/
-```
-
-### 4. Train Fair-GRPO
-
-```bash
-# SD3.5M (MMDiT architecture),All debiasing experiments were conducted on a cluster of 6$\times$NVIDIA RTX 4090 GPUs (24 GB each), with a total training time of approximately 10 hours.
-accelerate launch fair_grpo/train_sd3.py \
-    --config fair_grpo/configs/sd3_fairness.py
-```
----
 
 ## 📁 Repository Structure
 
@@ -151,12 +113,11 @@ HoloFair/
 │
 ├── fair_grpo/                     # Fair-GRPO Debiasing
 │   ├── train_sd3.py               # SD3.5M training
-│   ├── train_sd15.py              # SD1.5 training
 │   ├── reward/                    # Multi-attribute reward function
 │   ├── diffusers_patch/           # Pipeline & SDE with log-prob
 │   └── configs/                   # Training configurations
 │
-└── data/                          # Dataset utilities
+└── dataset/                          # Dataset utilities
 ```
 
 ---
@@ -179,9 +140,10 @@ If you find HoloFair useful in your research, please consider citing:
 ```bibtex
 @inproceedings{chen2026holofair,
   title     = {HoloFair: Unified T2I Fairness Evaluation and Fair-GRPO Debiasing},
-  author    = {Chen, Ruyi and Xu, Xiaogang and Zhang, Chiyu and Wu, Jiafei and Fang, Liming and Zhou, Lu},
+  author    = {Ruyi Chen and Lu Zhou and Xiaogang Xu and Chiyu Zhang and Jiafei Wu and Liming Fang},
   booktitle = {International Conference on Machine Learning (ICML)},
-  year      = {2026}
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2605.24687}
 }
 ```
 
